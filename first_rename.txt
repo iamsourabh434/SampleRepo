@@ -1,0 +1,10 @@
+Actions act = new Actions (driver); // Version 1 of my project
+act.context().build.perform();
+
+JavascriptExecutor jse = (JavascriptExecutor) driver; // I want to go these line into commit2.
+js.executeScript("arguments[0].scrollIntoView()," args); // I want to go these line into commit2.
+
+driver.manager().timeouts().ImplicitlyWait(10,TimeUnit.SECONDS);
+
+WebDriverWait wait = new WebDriverWait(driver,20)
+WebElement ele = wait.unti(expectedConditions.VisibleByLocator(By.xpath("")); 
